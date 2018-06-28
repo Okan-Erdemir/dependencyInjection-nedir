@@ -1,0 +1,6 @@
+addsingleton : bir ugulama çalıştığında kim istek gönderirse göndersin bir kopya oluşur ve bütün kullanıcılara bu kopya üzerinden cevap verir.
+
+addTransiet	: bir ugulama çalıştığında kim istek gönderirse göndersin her kullanıcıya yeni bir nesne oluşturulur ve oluşan nesne gönderilir
+her bir HttpRequest için sürekli yeni oluşturmaz ve httprequestleri bir kere oluşan sınıfdan gönderir.
+
+addScoped : her kullanıcıya yeni bir nesne oluşturulur, her bir HttpRequest için sürekli yeni oluşturur ve gönderir
